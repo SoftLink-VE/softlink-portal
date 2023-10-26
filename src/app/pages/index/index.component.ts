@@ -3,7 +3,7 @@ import noUiSlider from "nouislider";
 
 @Component({
   selector: "app-index",
-  templateUrl: "index.component.html"
+  templateUrl: "index.component.html",
 })
 export class IndexComponent implements OnInit, OnDestroy {
   isCollapsed = true;

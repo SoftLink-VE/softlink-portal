@@ -1,19 +1,26 @@
 {
-  "name": "blk-design-system-angular",
-  "version": "1.2.0",
+  "name": "softlink-portal",
+  "version": "1.0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "description": "BLK Design System Angular: Free Angular Design System For Bootstrap 4 and Angular",
+    "build:prod": "ng build --prod",
+    "description": "SoftLink Portal",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm start"
+    "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install"
   },
   "repository": {
-    "type": "git",
-    "url": "git+https://github.com/creativetimofficial/blk-design-system-angular.git"
+    "original": {
+      "type": "git",
+      "url": "git+https://github.com/creativetimofficial/blk-design-system-angular.git"
+    },
+    "softlink": {
+      "type": "git",
+      "url": "git+https://github.com/creativetimofficial/blk-design-system-angular.git"
+    }
   },
   "keywords": [
     "design system",

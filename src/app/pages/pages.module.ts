@@ -21,6 +21,9 @@ import { IndexComponent } from "./index/index.component";
 import { ProfilepageComponent } from "./examples/profilepage/profilepage.component";
 import { RegisterpageComponent } from "./examples/registerpage/registerpage.component";
 import { LandingpageComponent } from "./examples/landingpage/landingpage.component";
+import { FooterComponent } from "../components/home/footer/footer.component";
+import { HeaderComponent } from "../components/header/header.component";
+import { TopCenterPageComponent } from "../components/top-center-page/top-center-page.component";
 
 @NgModule({
   imports: [
@@ -39,20 +42,23 @@ import { LandingpageComponent } from "./examples/landingpage/landingpage.compone
     AlertModule.forRoot(),
     BsDatepickerModule.forRoot(),
     CarouselModule.forRoot(),
-    ModalModule.forRoot()
+    ModalModule.forRoot(),
   ],
   declarations: [
     IndexComponent,
     ProfilepageComponent,
     RegisterpageComponent,
-    LandingpageComponent
+    LandingpageComponent,
+    FooterComponent,
+    HeaderComponent,
+    TopCenterPageComponent
   ],
   exports: [
     IndexComponent,
     ProfilepageComponent,
     RegisterpageComponent,
-    LandingpageComponent
+    LandingpageComponent,
   ],
-  providers: []
+  providers: [],
 })
 export class PagesModule {}

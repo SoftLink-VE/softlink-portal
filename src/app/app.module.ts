@@ -23,9 +23,12 @@ import { IndexComponent } from "./pages/index/index.component";
 import { ProfilepageComponent } from "./pages/examples/profilepage/profilepage.component";
 import { RegisterpageComponent } from "./pages/examples/registerpage/registerpage.component";
 import { LandingpageComponent } from "./pages/examples/landingpage/landingpage.component";
+import { FooterComponent } from './components/home/footer/footer.component';
+
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+
     // IndexComponent,
     // ProfilepageComponent,
     // RegisterpageComponent,
@@ -34,7 +37,7 @@ import { LandingpageComponent } from "./pages/examples/landingpage/landingpage.c
   imports: [
     BrowserAnimationsModule,
     FormsModule,
-    HttpClientModule,
+    // HttpClientModule,
     RouterModule,
     AppRoutingModule,
     // BsDropdownModule.forRoot(),
