@@ -1,0 +1,6 @@
+.item-app {
+    transition: ease 1s;
+    &:hover {
+        transform: scale(1.2);
+    }
+}

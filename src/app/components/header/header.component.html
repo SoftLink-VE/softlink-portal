@@ -87,30 +87,28 @@
             dropdownToggle
             href="javascript:void(0)"
           >
-            <i class="fa fa-cogs d-lg-none d-xl-none"> </i> Getting started
+            <i class="fa fa-cogs d-lg-none d-xl-none"> </i> Look at this
           </a>
           <div class="dropdown-menu dropdown-with-icons" *dropdownMenu>
             <a
               class="dropdown-item"
               href="https://demos.creative-tim.com/blk-design-system-angular/#/documentation/overview"
             >
-              <i class="tim-icons icon-paper"> </i> Documentation
+              <i class="tim-icons icon-paper"> </i> Services
+            </a>
+            
+            <a class="dropdown-item" [routerLink]="['/landing']">
+              <i class="tim-icons icon-single-copy-04"> </i> Testimonials
             </a>
             <a class="dropdown-item" [routerLink]="['/register']">
-              <i class="tim-icons icon-bullet-list-67"> </i> Register Page
-            </a>
-            <a class="dropdown-item" [routerLink]="['/landing']">
-              <i class="tim-icons icon-image-02"> </i> Landing Page
-            </a>
-            <a class="dropdown-item" [routerLink]="['/profile']">
-              <i class="tim-icons icon-single-02"> </i> Profile Page
+              <i class="tim-icons icon-bullet-list-67"> </i> Ours app's
             </a>
           </div>
         </li>
         <li class="nav-item">
           <a
             class="nav-link btn btn-default d-none d-lg-block"
-            href="javascript:void(0)"
+            href="https://panel.thesoftlink.com"
           >
             <i class="tim-icons icon-single-02"> </i> Login
           </a>

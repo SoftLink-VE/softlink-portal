@@ -1,3 +1,4 @@
+import { PrinpalAppsComponent } from './../components/prinpal-apps/prinpal-apps.component';
 import { BrowserModule } from "@angular/platform-browser";
 import { NgModule } from "@angular/core";
 import { CommonModule } from "@angular/common";
@@ -24,6 +25,7 @@ import { LandingpageComponent } from "./examples/landingpage/landingpage.compone
 import { FooterComponent } from "../components/home/footer/footer.component";
 import { HeaderComponent } from "../components/header/header.component";
 import { TopCenterPageComponent } from "../components/top-center-page/top-center-page.component";
+import { TestimonialsComponent } from "../components/home/testimonials/testimonials.component";
 
 @NgModule({
   imports: [
@@ -46,6 +48,8 @@ import { TopCenterPageComponent } from "../components/top-center-page/top-center
   ],
   declarations: [
     IndexComponent,
+    TestimonialsComponent,
+    PrinpalAppsComponent,
     ProfilepageComponent,
     RegisterpageComponent,
     LandingpageComponent,
